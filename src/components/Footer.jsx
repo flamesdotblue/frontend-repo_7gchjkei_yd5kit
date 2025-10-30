@@ -2,10 +2,10 @@ import { Twitter, Instagram } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-white/[0.06] bg-[#0E0E0E] py-10">
+    <footer className="border-t border-white/[0.06] bg-black py-10 text-white">
       <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-6 px-6 sm:flex-row">
         <div className="text-center sm:text-left">
-          <div className="text-xl font-extrabold tracking-tight">Scoreboxd<span className="text-emerald-500">.</span></div>
+          <div className="text-xl font-extrabold tracking-tight">Scoreboxd<span className="text-white/60">.</span></div>
           <div className="mt-1 text-xs text-white/50">© 2025 Scoreboxd. All rights reserved.</div>
         </div>
         <div className="flex items-center gap-6 text-sm text-white/70">

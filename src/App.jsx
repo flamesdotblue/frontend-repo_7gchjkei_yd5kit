@@ -11,7 +11,7 @@ export default function App() {
   const [waitlistOpen, setWaitlistOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-[#0E0E0E] text-white">
+    <div className="min-h-screen bg-black text-white">
       <Navbar onOpenWaitlist={() => setWaitlistOpen(true)} />
       <Hero onOpenWaitlist={() => setWaitlistOpen(true)} />
       <div id="about"><AboutSection /></div>
